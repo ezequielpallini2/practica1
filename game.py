@@ -32,7 +32,9 @@ for i in range(0, times):
     # Se imprime la cuenta.
     print(f"{i+1}- ¿Cuánto es {number_1} {operator} {number_2}?")
     # Le pedimos al usuario el resultado
-    result = input("resultado: ")
+    result = float(input("resultado: "))
+    #Verificamos que el resultado sea correcto, 
+    #de ser así lo contabilizamos
     if (result == res ):
         cantok += 1
         print(f"\n ¡El resultado es correcto!")
@@ -47,4 +49,4 @@ total_time = end_time - init_time
 # Mostramos ese tiempo en segundos.
 print(f"\n Tardaste {total_time.seconds} segundos.")
 #Informamos la cantidad de respuestas correctas e incorrectas
-print(f"\n Tuviste {cantok} respuestas correctas y {times - cantok} respuestas incorrectas")
+print(f"\n Respuestas correctas: {cantok} \n Respuestas incorrectas: {times - cantok}")
