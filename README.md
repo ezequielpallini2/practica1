@@ -1,2 +1,2 @@
-# practica1
-Practica 1, seminario de lenguajes Python
+Nombre: Ezequiel Pallini
+Legajo: 22746/2
