@@ -18,7 +18,7 @@ for i in range(0, times):
     #Se verifica si hay una división por 0, modificando el 
     #rango de valores que debe tomar el número 2 de ser necesario
     if (operator == "/") and (number_2 == 0):
-        number_2 = randrange(1,10)
+        number_2 = randrange(1,9)
     #Se realiza la cuenta
     match operator:
         case "+":
